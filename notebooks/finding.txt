@@ -1,0 +1,22 @@
+
+
+Paddy yield in this dataset is almost entirely determined by farm inputs, not weather. The 11 selected features are all things a farmer directly controls — land size, fertilizers, seeds, pesticides. Weather features had Pearson correlations below 0.03 with yield, while farm inputs were at 0.95-0.98.
+
+What this means for your project anchor:
+Your project is not just "predict paddy yield." It's more specifically:
+
+"Can we predict paddy yield from farmer-controlled inputs alone, and use that to give actionable recommendations to farmers?"
+
+This is actually a stronger and more honest contribution than the original paper because:
+
+You're not relying on weather data which farmers can't control
+Your model, if accurate, is directly actionable — a farmer can input what they plan to apply and get a yield estimate
+It separates what farmers can control from what they can't
+
+
+How to frame your results section:
+
+Feature selection revealed farm inputs dominate yield prediction in this dataset
+Weather variables contribute negligible additional signal
+This suggests yield in Tamil Nadu's controlled farming blocks is primarily input-driven, not climate-driven
+Models trained on these 11 features should be evaluated on whether this signal is sufficient for accurate yield prediction
