@@ -5,6 +5,8 @@ pandas
 # Machine Learning
 scikit-learn
 xgboost
+lightgbm
+shap
 
 # Visualization
 matplotlib
