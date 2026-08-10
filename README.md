@@ -1,4 +1,3 @@
-Set-Content -Path "README.md" -Encoding UTF8 -Value @'
 # Paddy Yield Prediction
 
 ## Overview
